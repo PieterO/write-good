@@ -14,6 +14,11 @@ if (args[0] === '--version'){
   process.exit(0);
 }
 
+if (args[0] === '-h'){
+  console.log('read the readme on github for more help');
+  process.exit(0);
+}
+
 if (files.length === 0 && !args.some(arg => arg.startsWith('--text'))) {
   console.log('You did not provide any files to check');
   process.exit(1);
