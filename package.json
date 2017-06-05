@@ -27,6 +27,7 @@
   "license": "MIT",
   "devDependencies": {
     "jasmine-node": "2.0.0",
+    "node-cmd": "^3.0.0",
     "schreib-gut": "0.0.1"
   },
   "dependencies": {
